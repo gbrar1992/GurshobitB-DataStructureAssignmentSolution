@@ -35,8 +35,6 @@ public class BinarySearchTreeProblem {
     }
 
     public static void main(String[] args) {
-        BinarySearchTreeProblem binarySearchTreeProblem = new BinarySearchTreeProblem();
-
         treeNode = new Node(50);
         treeNode.left = new Node(30);
         treeNode.right = new Node(60);
