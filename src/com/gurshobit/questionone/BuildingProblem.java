@@ -42,7 +42,7 @@ public class BuildingProblem {
             } while (floorSize < 1);
             floors[f] = floorSize;
         }
-        System.out.println("Building Floor Construction Plan as follows: ");
+        System.out.println("Building's Floor Construction Plans as follows: ");
         floorWorkLogic(floors,totalFloors);
     }
 }
