@@ -1,12 +1,13 @@
 package com.gurshobit.questionone;
 
+import java.util.Collections;
 import java.util.PriorityQueue;
 import java.util.Scanner;
 
 public class BuildingProblem {
     public static Scanner scannerInput = new Scanner(System.in);
     public static void floorWorkLogic(int[] floors, int maxFloors){
-        PriorityQueue<Integer> priorityQueue = new PriorityQueue<>(java.util.Collections.reverseOrder());
+        PriorityQueue<Integer> priorityQueue = new PriorityQueue<>(Collections.reverseOrder());
 
         int maxFloorNumber = maxFloors;
 
